@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# WorkoutTracker
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+The WorkoutTracker app will allow users to create an account where they can login and see a list of workouts along with instructions on how to complete them and how many calories are burned with each workout. It can also keep track of which workouts are completed.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Fitness
+- **Mobile: This app is designed to be used on mobile devices although it would be possible to expand the platform to allow users to view their data on other devices
+- **Story: Users to can create an account and view detailed instructions on how to complete specific workouts along with the ability to track their progress.
+- **Market: Any Individual interested in working out.
+- **Habit: This app as often or unoften as the user wants.
+- **Scope: First we would start with a predetermined list of workouts. Then we could potentially broaden the scope of the project to suggest workouts based on previous user activity.
 
 ## Product Spec
 
@@ -28,39 +28,44 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* [1] User must have the ability to sign-in/create an account.
+* [2] Upon login the user is presented with the list of workouts.
+* [3] User must have the ability to navigate between tabs (workouts/stats).
+* [4] User can tap on a workout icon and transtion to the Workout Instructions page.
+* [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
+* [6] Upon completing the workout the user is returned to workouts page.
+* [7] User can view stats related to their account on the stats page.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Ability to share progress to social media (ex: send out tweet)
+* Take into account past workouts to recommend users new workouts.
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Page
+   * [1] User must have the ability to sign-in/create an account.
+   * [2] Upon login the user is transitioned to a page with the list of workouts.
+* Workouts Page
+   * [3] User must have the ability to navigate between tabs (workouts/stats).
+   * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
+* Workout Instructions Page
+  * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
+  * [6] Upon completing the workout the user is returned to workouts page.
+* User Stats Page
+  * [7] User can view stats related to their account on the stats page.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Workouts Tab
+* Stats Tab
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Login Screen -> Main Workouts Screen
+* Main Workouts Screen -> Workout Instructions Screen
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
