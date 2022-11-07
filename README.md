@@ -15,12 +15,12 @@ The WorkoutTracker app will allow users to create an account where they can logi
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Fitness
-- **Mobile: This app is designed to be used on mobile devices although it would be possible to expand the platform to allow users to view their data on other devices
-- **Story: Users to can create an account and view detailed instructions on how to complete specific workouts along with the ability to track their progress.
-- **Market: Any Individual interested in working out.
-- **Habit: This app as often or unoften as the user wants.
-- **Scope: First we would start with a predetermined list of workouts. Then we could potentially broaden the scope of the project to suggest workouts based on previous user activity.
+- **Category:** Fitness
+- **Mobile:** This app is designed to be used on mobile devices although it would be possible to expand the platform to allow users to view their data on other devices
+- **Story:** Users to can create an account and view detailed instructions on how to complete specific workouts along with the ability to track their progress.
+- **Market:** Any Individual interested in working out.
+- **Habit:** This app as often or unoften as the user wants.
+- **Scope:** First we would start with a predetermined list of workouts. Then we could potentially broaden the scope of the project to suggest workouts based on previous user activity.
 
 ## Product Spec
 
