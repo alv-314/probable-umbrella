@@ -29,12 +29,14 @@ The WorkoutTracker app will allow users to create an account where they can logi
 **Required Must-have Stories**
 
 * [1] User must have the ability to sign-in/create an account.
-* [2] Upon login the user is presented with the list of workouts.
+* [2] Upon login the user is presented with the main menu containing the following options: Account, Your Progreess, Workouts, Share, Logout.
 * [3] User must have the ability to navigate between tabs (workouts/stats).
 * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
 * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
 * [6] Upon completing the workout the user is returned to workouts page.
 * [7] User can view stats related to their account on the stats page.
+* [8] User can navigate to an Account Details Page from the main menu.
+* [9] User can view details such as Name and phone number from the Account Details Page.
 
 **Optional Nice-to-have Stories**
 
@@ -54,19 +56,23 @@ The WorkoutTracker app will allow users to create an account where they can logi
   * [6] Upon completing the workout the user is returned to workouts page.
 * User Stats Page
   * [7] User can view stats related to their account on the stats page.
-
+* Account Details Page
+  * [8] User can navigate to an Account Details Page from the main menu.
+  * [9] User can view details such as Name and phone number from the Account Details Page.
+ 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Workouts Tab
+* Main Menu Tab
 * Stats Tab
 
 **Flow Navigation** (Screen to Screen)
 
-* Forced Login Screen -> Main Workouts Screen
-* Main Workouts Screen -> Workout Instructions Screen
-
+* Forced Login Screen -> Main Menu Screen
+* Main Menu Screen -> Workouts Screen
+* Main Menu Screen -> Account Details Screen
+ 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="https://i.imgur.com/6lSvOD4.jpg" width=600>
