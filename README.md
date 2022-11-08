@@ -95,17 +95,17 @@ The WorkoutTracker app will allow users to create an account where they can logi
    | userName      | String   | user's username |
    | phoneNumber   | String   | user's phone number |
    | name          | String   | user's name  |
+   | socialMedia   | Pointer or token to user's socials| Needs more research, but entry to user's socials |
 #### Progress/Stats
   
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | author        | Pointer to User| pointer to user model |
-   |    | Pointer to User progress | Points to model for User workout progress |
-   |  | String   | image caption by author |
-   | | Number   | number of comments that has been posted to an image |
-   | | Number   | number of likes for the post |
-   | | DateTime | date when post is created (default field) |
-   |  | DateTime | date when post is last updated (default field) |
+   | author        | Pointer to User | pointer to user model |
+   | caloriesBurned| Number   | number of calories burned by the user |
+   | numOfExercises| Number   | number of exercises/sets performed by the user |
+   | weeklyGoal    | Number   | number of exercises the user wishes to accomplish |
+   | weeklyGoalStat| Number   | Displays the number of hours the user has completed so far|
+   
 
 ### Networking
 #### List of network requests by screen
